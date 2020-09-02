@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form">
+      <input
+        type="data"
+        placeholder="Ваше имя"
+        class="form-name"
+        id="nameForm"
+      />
+      <p id="erorClass" class="eror">Ты не ввел значения</p>
+      <input
+        type="data"
+        placeholder="Ваш возраст"
+        class="form-age"
+        id="ageForm"
+      />
+      <select name="adukation" class="form-adukation" id="choiseAdukation">
+        <option disabled selected>Выбери образование</option>
+        <option>Высшее</option>
+        <option>Среднее</option>
+        <option>Низшее</option>
+      </select>
+      <form class="radio">
+        <p>Ваш пол</p>
+        <input type="radio" id="genderMen" name="contact" value="Мужской" />
+        <label for="genderMen">Мужской</label>
+        <input type="radio" id="genderWomen" name="contact" value="Женский" />
+        <label for="genderWomen">Женский</label>
+      </form>
+      <pre id="log"></pre>
+      <button class="form-btn" id="sendBtn">Отправить</button>
+    </div>
+    <div class="model" id="model">
+      <div class="model__body">
+        <div class="model__content"></div>
+        <button class="close" id="btnClose">X</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
