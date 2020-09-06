@@ -21,6 +21,7 @@
   font-size: 16px;
   font-family: sans-serif;
   border-radius: 0.5em;
+  outline: none;
 }
 .form-age {
   width: 100%;
@@ -31,6 +32,7 @@
   font-size: 16px;
   font-family: sans-serif;
   border-radius: 0.5em;
+  outline: none;
 }
 
 .form-adukation {
@@ -121,4 +123,11 @@
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
+}
+
+.error-text {
+  border: 2px solid red;
+}
+.no-error-text {
+  border: 2px solid green;
 }
